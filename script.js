@@ -17,10 +17,11 @@ submitBtn.addEventListener("click", function (e) {
         <td>${author}</td>
         <td>${isbn}</td>
         <td><button class="delete">Clear</button></td>
-    ;
+    `;
 
     bookList.appendChild(row);
 
+    // Clear inputs
     document.getElementById("title").value = "";
     document.getElementById("author").value = "";
     document.getElementById("isbn").value = "";
